@@ -4,8 +4,8 @@ class Php71Phalcon < AbstractPhp71Extension
   init
   desc "Full-stack PHP framework"
   homepage "https://phalconphp.com/"
-  url "https://github.com/phalcon/cphalcon/archive/v3.3.0.tar.gz"
-  sha256 "559211b861a71ae6032216b2dc41d085560354072c95d1000b13fd37b0e0e008"
+  url "https://github.com/phalcon/cphalcon/archive/v3.3.2.tar.gz"
+  sha256 "823fd693a7e9e8999edfd405970a81b7bf731fa28109a64774216fc5f68d2975"
   head "https://github.com/phalcon/cphalcon.git"
 
   depends_on "pcre"
@@ -14,9 +14,7 @@ class Php71Phalcon < AbstractPhp71Extension
     Dir.chdir "build/php7/64bits"
 
     safe_phpize
-    system "./configure", "--prefix=#{prefix}",
-                          phpconfig,
-                          "--enable-phalcon"
+    system "./configure", "--prefix=#{prefix}", phpconfig, "--enable-phalcon"
     system "make"
     prefix.install "modules/phalcon.so"
     write_config_file if build.with? "config-file"
