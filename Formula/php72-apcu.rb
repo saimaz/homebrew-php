@@ -5,7 +5,7 @@ class Php72Apcu < AbstractPhp72Extension
   desc "APC User Cache"
   homepage "https://pecl.php.net/package/apcu"
   url "https://github.com/krakjoe/apcu/archive/v5.1.11.tar.gz"
-  sha256 "c1096c8c8d0dc75f902b68f699d10bc5056540ed15fb616414ccbfbedca8e95b"
+  sha256 "760fc93e9657a52429796e0cc321b400c4de608c24970395577332ef1d314747"
   head "https://github.com/krakjoe/apcu.git"
   revision 1
 
