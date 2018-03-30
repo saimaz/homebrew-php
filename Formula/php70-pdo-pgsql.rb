@@ -4,7 +4,7 @@ class Php70PdoPgsql < AbstractPhp70Extension
   init
   desc "Unified PostgreSQL driver for PDO"
   homepage "https://github.com/php/php-src/tree/master/ext/pdo_pgsql"
-  revision 19
+  revision 20
 
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
