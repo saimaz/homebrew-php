@@ -4,7 +4,7 @@ class Php71Mcrypt < AbstractPhp71Extension
   init
   desc "Interface to the mcrypt library"
   homepage "https://php.net/manual/en/book.mcrypt.php"
-  revision 22
+  revision 23
 
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
