@@ -4,7 +4,7 @@ class Php72PdoDblib < AbstractPhp72Extension
   init
   desc "Unified Sybase-DB style driver for PDO"
   homepage "https://github.com/php/php-src/tree/master/ext/pdo_dblib"
-  revision 13
+  revision 14
 
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]

@@ -4,7 +4,7 @@ class Php72Pcntl < AbstractPhp72Extension
   init
   desc "Process Control support"
   homepage "https://php.net/manual/en/book.pcntl.php"
-  revision 13
+  revision 14
 
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
