@@ -6,7 +6,7 @@ class Php56Mcrypt < AbstractPhp56Extension
   homepage "http://php.net/manual/en/book.mcrypt.php"
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
-  revision 8
+  revision 9
 
   depends_on "mcrypt"
   depends_on "libtool" => :run

@@ -6,7 +6,7 @@ class Php56Intl < AbstractPhp56Extension
   homepage "https://php.net/manual/en/book.intl.php"
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
-  revision 15
+  revision 16
 
   depends_on "icu4c"
 

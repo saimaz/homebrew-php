@@ -6,7 +6,7 @@ class Php56Opcache < AbstractPhp56Extension
   homepage "https://php.net/manual/en/book.opcache.php"
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
-  revision 8
+  revision 9
 
   depends_on "pcre"
 

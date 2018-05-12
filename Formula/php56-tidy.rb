@@ -6,7 +6,7 @@ class Php56Tidy < AbstractPhp56Extension
   homepage "http://php.net/manual/en/book.tidy.php"
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
-  revision 7
+  revision 8
 
   depends_on "tidy-html5"
 
