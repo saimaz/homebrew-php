@@ -4,7 +4,7 @@ class Php70Gmp < AbstractPhp70Extension
   init
   desc "GMP core php extension"
   homepage "https://php.net/manual/en/book.gmp.php"
-  revision 20
+  revision 21
 
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]

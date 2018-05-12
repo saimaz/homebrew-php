@@ -4,7 +4,7 @@ class Php70Tidy < AbstractPhp70Extension
   init
   desc "Tidy HTML clean and repair utility"
   homepage "https://php.net/manual/en/book.tidy.php"
-  revision 20
+  revision 21
 
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
