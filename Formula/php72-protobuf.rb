@@ -4,8 +4,8 @@ class Php72Protobuf < AbstractPhp72Extension
   init
   desc "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data."
   homepage "https://pecl.php.net/package/protobuf"
-  url "https://pecl.php.net/get/protobuf-3.5.1.1.tgz"
-  sha256 "5f7bb3921b312d4fd7d1d6a56a7d90d63ade5e0821a07c6da56d2d2ba17df027"
+  url "https://pecl.php.net/get/protobuf-3.6.0.tgz"
+  sha256 "8b60841894edef12695a282fb0f8585105b2c70c54a7ef26c7d98d0c093afe6e"
 
   depends_on "protobuf"
 
