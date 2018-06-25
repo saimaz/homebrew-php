@@ -4,7 +4,7 @@ class Php72Snmp < AbstractPhp72Extension
   init
   desc "SNMP core php extension"
   homepage "https://php.net/manual/en/book.snmp.php"
-  revision 13
+  revision 14
 
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
