@@ -9,7 +9,7 @@ class Php56Mcrypt < AbstractPhp56Extension
   revision 9
 
   depends_on "mcrypt"
-  depends_on "libtool" => :run
+  depends_on "libtool"
 
   def install
     Dir.chdir "ext/mcrypt"

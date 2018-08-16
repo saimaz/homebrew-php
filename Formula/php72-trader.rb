@@ -8,7 +8,7 @@ class Php72Trader < AbstractPhp72Extension
   sha256 "64400b2331cd843cd1bb684b5d02145ac6c00118565915fe592c6eee3c108784"
 
   depends_on "ta-lib"
-  depends_on "libtool" => :run
+  depends_on "libtool"
 
   def install
     Dir.chdir "trader-#{version}"

@@ -15,7 +15,7 @@ class Php55Trader < AbstractPhp55Extension
   end
 
   depends_on "ta-lib"
-  depends_on "libtool" => :run
+  depends_on "libtool"
 
   def install
     Dir.chdir "trader-#{version}"
