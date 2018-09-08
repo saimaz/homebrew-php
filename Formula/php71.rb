@@ -3,7 +3,7 @@ require File.expand_path("../../Abstract/abstract-php", __FILE__)
 class Php71 < AbstractPhp
   init
   desc "PHP Version 7.1"
-  revision 29
+  revision 30
 
   include AbstractPhpVersion::Php71Defs
 
