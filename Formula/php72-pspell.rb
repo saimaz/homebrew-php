@@ -4,7 +4,7 @@ class Php72Pspell < AbstractPhp72Extension
   init
   desc "Extension to check the spelling"
   homepage "https://php.net/manual/en/book.pspell.php"
-  revision 12
+  revision 13
 
   url PHP_SRC_TARBALL
   sha256 PHP_CHECKSUM[:sha256]
